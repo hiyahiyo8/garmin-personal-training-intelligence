@@ -1,0 +1,4 @@
+interface:
+  display_name: "CSS Modules"
+  short_description: "Style interfaces with tokens and modules"
+  default_prompt: "Use $css-modules to style this interface with the project tokens."

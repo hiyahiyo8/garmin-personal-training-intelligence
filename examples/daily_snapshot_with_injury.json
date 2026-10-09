@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-23",
+  "sleep_hours": 7.5,
+  "sleep_score": 84,
+  "hrv_nightly_ms": 48,
+  "hrv_baseline_low_ms": 40,
+  "hrv_baseline_high_ms": 55,
+  "resting_hr_bpm": 52,
+  "resting_hr_baseline_bpm": 54,
+  "body_battery_morning": 86,
+  "stress_average": 18,
+  "scheduled_session": "Run-walk 2:1 sejauh 5 km",
+  "symptoms": {
+    "pain_at_rest": 1,
+    "pain_while_walking": 6,
+    "swelling": true,
+    "limping": false,
+    "chest_pain": false,
+    "fainting_or_severe_dizziness": false,
+    "fever": false
+  }
+}

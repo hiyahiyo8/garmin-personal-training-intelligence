@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data Garmin dan profil pribadi tidak boleh masuk Git.
+data/private/
+data/imports/*
+!data/imports/.gitkeep
+config/athlete.local.json
+config/athlete-profile.json
+reports/private/
+.env
+*.token
+
+# Optional local dependencies/cache.
+vendor/
+
+# Local tooling and generated dashboard files.
+codex-frontend-skills/
+scripts/*.lnk
+dashboard/*.log
+*.backup
+dashboard/*.tsbuildinfo
+dashboard/test-results/
+dashboard/playwright-report/
+dashboard/dist/
+dashboard/node_modules/

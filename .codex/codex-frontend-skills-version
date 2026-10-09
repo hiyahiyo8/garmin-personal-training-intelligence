@@ -1,0 +1,9 @@
+source: https://github.com/Syo-M/codex-frontend-skills
+version: v2.0.0
+styling: css-modules
+state: inactive
+agents-guidance: inactive
+identical: 53
+differing: 0
+missing: 0
+installed: 2026-09-26

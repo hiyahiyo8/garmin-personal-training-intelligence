@@ -1,0 +1,17 @@
+{
+  "name": "garmin-personal-training-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first Garmin export evaluation using transparent sport-science rules",
+  "scripts": {
+    "demo": "node src/cli.js report --input examples/daily_snapshot.json",
+    "demo:injury": "node src/cli.js report --input examples/daily_snapshot_with_injury.json",
+    "dashboard": "npm --prefix dashboard run dev -- --port 4174",
+    "import:example": "node src/cli.js import --input examples/garmin_activities.csv --profile config/athlete-profile.example.json",
+    "test": "node --test tests/readiness.test.js tests/garmin-export.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

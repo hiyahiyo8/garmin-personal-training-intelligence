@@ -1,0 +1,19 @@
+{
+  "name": "12-week return-to-fitness and running foundation",
+  "timezone": "Asia/Jakarta",
+  "weekly_schedule": {
+    "monday": "Strength A",
+    "tuesday": "Easy aerobic or run-walk progression",
+    "wednesday": "Active recovery 20-30 minutes",
+    "thursday": "Strength B",
+    "friday": "Rest",
+    "saturday": "Long easy aerobic",
+    "sunday": "Rest or light recreation"
+  },
+  "global_rules": {
+    "strength_target": "RIR 2-3",
+    "easy_aerobic_target": "RPE 3-4 and conversational effort",
+    "pain_rule": "Do not run or load through pain, swelling, or limping",
+    "progression_rule": "Progress only when the current dose is tolerated"
+  }
+}
